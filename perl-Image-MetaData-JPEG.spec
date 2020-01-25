@@ -3,7 +3,6 @@
 %bcond_without	autodeps	# don't BR packages needed only for resolving deps
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Image
 %define	pnam	MetaData-JPEG
 Summary:	Image::MetaData::JPEG - Perl extension for showing/modifying JPEG (meta)data
