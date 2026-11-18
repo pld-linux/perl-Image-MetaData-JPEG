@@ -7,12 +7,12 @@
 %define	pnam	MetaData-JPEG
 Summary:	Image::MetaData::JPEG - Perl extension for showing/modifying JPEG (meta)data
 Name:		perl-Image-MetaData-JPEG
-Version:	0.153
+Version:	0.159
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Image/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a4ef659de15d49012b3e2c034b41e989
+Source0:	https://www.cpan.org/authors/id/R/RJ/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	a0425a5d56aa85e50f1ec6f38d95abcc
 URL:		http://search.cpan.org/dist/Image-MetaData-JPEG/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -68,5 +68,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Image/MetaData/*.pm
+%{perl_vendorlib}/Image/MetaData/*.pod
 %{perl_vendorlib}/Image/MetaData/JPEG
 %{_mandir}/man3/*
