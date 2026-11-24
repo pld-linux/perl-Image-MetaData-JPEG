@@ -8,7 +8,7 @@
 Summary:	Image::MetaData::JPEG - Perl extension for showing/modifying JPEG (meta)data
 Name:		perl-Image-MetaData-JPEG
 Version:	0.159
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/authors/id/R/RJ/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
